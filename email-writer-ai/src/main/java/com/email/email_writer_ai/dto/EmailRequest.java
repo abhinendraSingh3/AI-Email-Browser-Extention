@@ -1,4 +1,4 @@
-package com.email.email_writer_ai;
+package com.email.email_writer_ai.dto;
 
 import lombok.Data;
 
@@ -6,5 +6,5 @@ import lombok.Data;
 public class EmailRequest {
 
     private String emailContent;
-    private String Tone;
+    private String tone;
 }
